@@ -1,0 +1,114 @@
+@font-face {
+  font-family: helvetica;
+  src: url(Helvetica.ttf);
+}
+
+#rainbowContainer {
+  margin-left: 1240px;
+  margin-top: -10px;
+  font-family: helvetica;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: royalblue;
+  width: 1350px;
+  height: 1500px;
+}
+
+body {
+  background-image: url(rainbow.jpg);
+  background-repeat: no-repeat;
+  background-size: 1275px;
+  overflow:hidden;
+}
+
+h1 {
+  background-color:hotpink;
+  width: 1350px;
+  height: 100px;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#anchorTwo {
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+  margin-left: -150px;
+}
+
+#login {
+  margin-right: 80px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#anchor {
+  color: white;
+}
+
+.label {
+  font-family: helvetica;
+  margin-top: -5px;
+  font-size: 20px;
+  margin-left: -100px;
+}
+
+#passwordLabel {
+  margin-top: 30px;
+}
+
+.disclaimer {
+  margin-top: 925px;
+}
+
+#username {
+  margin-top: -20px;
+  margin-left: 3px;
+}
+
+#password {
+  margin-top: -21px;
+  margin-left: 3px;
+}
+
+#member{
+  margin-top:-20px;
+  margin-left:-5px;
+}
+
+#cancel{
+  margin-left:-3px;
+}
+
+#about{
+  margin-top:655px;
+}
+
+#logOn{
+  width:100px;
+  margin-top:20px;
+  margin-bottom:-10px;
+  margin-left:200px;
+  padding:10px;
+  border-radius:10px;
+  border-style:solid;
+  border-color:#599fda;
+  background-color:#599fda;
+  color:white;
+  font-family:helvetica;
+}
+
+#logOn:hover{
+  background-color:steelblue;
+}

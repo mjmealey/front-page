@@ -92,7 +92,8 @@ h2 {
 }
 
 #about{
-  margin-top:655px;
+  margin-top:715px;
+  color:white;
 }
 
 #logOn{
@@ -111,4 +112,8 @@ h2 {
 
 #logOn:hover{
   background-color:steelblue;
+}
+
+.click{
+  color:white;
 }
